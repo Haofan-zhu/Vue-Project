@@ -1,15 +1,21 @@
 <template>
   <div id="app">
-    <Demo></Demo>
+    <!-- <DealEvents></DealEvents> -->
+    <LkFilters></LkFilters>
   </div>
 </template>
 
 <script>
-import Demo from "./components/Demo"
+// import Demo from "./components/Demo"
+// import DealEvents from "./components/DealEvents"
+import LkFilters from "./components/LkFilters"
+
 export default {
   name: 'App',
   components: {
-    Demo,
+    // Demo,
+    // DealEvents
+    LkFilters
   }
 }
 </script>
@@ -22,6 +28,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  
 }
 </style>
