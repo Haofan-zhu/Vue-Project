@@ -1,21 +1,31 @@
 <template>
   <div id="app">
     <!-- <DealEvents></DealEvents> -->
-    <LkFilters></LkFilters>
+    <!-- <LkFilters></LkFilters> -->
+    <!-- <TransitionAndAnimate></TransitionAndAnimate> -->
+    <!-- <TranistionAndAnimateTwo></TranistionAndAnimateTwo> -->
+    <TranstionAndAnimateThree></TranstionAndAnimateThree>
   </div>
 </template>
 
 <script>
 // import Demo from "./components/Demo"
 // import DealEvents from "./components/DealEvents"
-import LkFilters from "./components/LkFilters"
+// import LkFilters from "./components/LkFilters"
+// import TransitionAndAnimate from "./components/TransitionAndAnimate"
+
+import TranistionAndAnimateTwo from "./components/TranistionAndAnimateTwo"
+import TranstionAndAnimateThree from "./components/TranstionAndAnimateThree"
 
 export default {
   name: 'App',
   components: {
     // Demo,
     // DealEvents
-    LkFilters
+    // LkFilters,
+    // TransitionAndAnimate,
+    // TranistionAndAnimateTwo,
+    TranstionAndAnimateThree
   }
 }
 </script>
