@@ -4,7 +4,8 @@
     <!-- <LkFilters></LkFilters> -->
     <!-- <TransitionAndAnimate></TransitionAndAnimate> -->
     <!-- <TranistionAndAnimateTwo></TranistionAndAnimateTwo> -->
-    <TranstionAndAnimateThree></TranstionAndAnimateThree>
+    <!-- <TranstionAndAnimateThree></TranstionAndAnimateThree> -->
+    <LifeCircle></LifeCircle>
   </div>
 </template>
 
@@ -14,29 +15,31 @@
 // import LkFilters from "./components/LkFilters"
 // import TransitionAndAnimate from "./components/TransitionAndAnimate"
 
-import TranistionAndAnimateTwo from "./components/TranistionAndAnimateTwo"
-import TranstionAndAnimateThree from "./components/TranstionAndAnimateThree"
+// import TranistionAndAnimateTwo from "./components/TranistionAndAnimateTwo"
+// import TranstionAndAnimateThree from "./components/TranstionAndAnimateThree"
+import LifeCircle from './components/LifeCircle'
 
 export default {
-  name: 'App',
+  name: 'AppLifeCircle',
   components: {
     // Demo,
     // DealEvents
     // LkFilters,
     // TransitionAndAnimate,
     // TranistionAndAnimateTwo,
-    TranstionAndAnimateThree
+    // TranstionAndAnimateThree
+    LifeCircle
   }
 }
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 </style>
